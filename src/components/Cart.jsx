@@ -1,8 +1,9 @@
 import React from "react";
 import images from "../../src/assets/images/pic1.jpg";
 const Cart = () => {
+  
   return (
-    <div className="py-10 flex justify-start items-start gap-4">
+    <div className="py-10 h-[500px] overflow-auto flex justify-start items-start gap-4">
       <div className="">
         <img className="w-16 h-16 rounded-md" src={images} alt="" />
       </div>

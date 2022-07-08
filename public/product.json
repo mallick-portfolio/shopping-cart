@@ -3,156 +3,306 @@
     "id": 1,
     "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
     "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic1.jpg"
+    "image": "https://i.ibb.co/9gTmdSN/pic16.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic2.jpg"
+    "id": 2,
+    "title": "Meal for 4: Chicken Dominator Combo",
+    "des": "Large Chicken Dominator + 2 Garlic Bread + 2 Pepsi",
+    "image": "https://i.ibb.co/5xSg9y1/pic18.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic3.jpg"
+    "id": 3,
+    "title": "Corn n Cheese Paratha Pizza",
+    "des": "A crazy fusion like never before. A delicious fusion of corn stuffed paratha and cheesy pizza.",
+    "image": "https://i.ibb.co/wQrMTFB/pic2.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic4.jpg"
+    "id": 4,
+    "title": "Paneer Paratha Pizza",
+    "des": "Paneer Paratha Pizza An epic fusion of paratha and pizza with melting cheese & soft paneer fillings to satisfy all your indulgent",
+    "image": "https://i.ibb.co/C2vfWdg/pic12.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic5.jpg"
+    "id": 5,
+    "title": "Chicken Keema Paratha Pizza",
+    "des": "Flavourful & meaty chicken keema paratha and goodness of cheesy pizza coming together in an epic crossover!",
+    "image": "https://i.ibb.co/C2vfWdg/pic12.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic6.jpg"
+    "id": 6,
+    "title": "Value Combo: 2 Garlic Breads",
+    "des": "Value Combo: 2 Garlic Breads @ 99 Each",
+    "image": "https://i.ibb.co/09g1DSk/pic10.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic7.jpg"
+    "id": 7,
+    "title": "Value Combo: 2 Choco Lava Cake",
+    "des": "Value Combo: 2 Choco Lava Cake @ 99 Each",
+    "image": "https://i.ibb.co/09g1DSk/pic10.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic8.jpg"
+    "id": 8,
+    "title": "Value Combo: 1 Garlic Bread and 1 Choco Lava Cake",
+    "des": "Value Combo: 1 Garlic Bread and 1 Choco Lava Cake @ 99 Each",
+    "image": "https://i.ibb.co/5YVFtfX/pic9.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
+    "id": 9,
     "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
     "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic9.jpg"
+    "image": "https://i.ibb.co/qMYRSDT/pic8.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic10.jpg"
+    "id": 10,
+    "title": "Value Combo: 1 Regular Margherita and 1 Choco Lava Cake",
+    "des": "Value Combo: 1 Regular Margherita and 1 Choco Lava Cake @ 99 Each",
+    "image": "https://i.ibb.co/6BDtTQ1/pic7.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic11.jpg"
+    "id": 11,
+    "title": "Value Combo: 1 Regular Margherita and 1 Garlic Bread",
+    "des": "Value Combo: 1 Regular Margherita and 1 Garlic Bread @ 99 Each",
+    "image": "https://i.ibb.co/72WPWDN/pic6.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic12.jpg"
+    "id": 12,
+    "title": "The 4 Cheese Pizza",
+    "des": "Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal pizza",
+    "image": "https://i.ibb.co/JxVZqTb/pic5.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic13.jpg"
+    "id": 13,
+    "title": "Margherita",
+    "des": "Classic delight with 100% real mozzarella cheese",
+    "image": "https://i.ibb.co/SxFFgvJ/pic4.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic14.jpg"
+    "id": 14,
+    "title": "Farmhouse",
+    "des": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+    "image": "https://i.ibb.co/9ZRfr8t/pic3.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic15.jpg"
+    "id": 15,
+    "title": "Cheese n Corn",
+    "des": "Sweet & Juicy Golden corn and 100% real mozzarella cheese in a delectable combination !",
+    "image": "https://i.ibb.co/wQrMTFB/pic2.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic16.jpg"
+    "id": 16,
+    "title": "Pepper Barbecue Chicken",
+    "des": "Pepper barbecue chicken for that extra zing",
+    "image": "https://i.ibb.co/w4czvhq/pic1.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic17.jpg"
+    "id": 17,
+    "title": "Chicken Sausage",
+    "des": "American classic! Spicy, herbed chicken sausage on pizza",
+    "image": "https://i.ibb.co/5xSg9y1/pic18.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   },
   {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic18.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic1.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic2.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic3.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic4.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic5.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic6.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic7.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
-    "des": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-    "image": "../src/assets/images/pic8.jpg"
+    "id": 18,
+    "title": "The Unthinkable Pizza",
+    "des": "Loaded with Plant Based Protein topping along with Black Olives & Red Paprika enjoy this unique 100%",
+    "image": "https://i.ibb.co/JK4c5YJ/pic17.webp",
+    "price": [
+      {
+        "small": 23
+      },
+      {
+        "medium": 60
+      },
+      {
+        "large": 100
+      }
+    ]
   }
 ]

@@ -4,7 +4,7 @@ import Products from "./components/Products.jsx";
 function App() {
   return (
     <>
-      <div className="flex gap-6 container mx-auto">
+      <div className="flex gap-6 py-8 container mx-auto">
         <div className="w-4/6">
           <Products />
         </div>
