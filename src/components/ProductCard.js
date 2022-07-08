@@ -1,26 +1,47 @@
 import React from "react";
+import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { addItem } from "../store/cart/cartSlice.js";
 const ProductCard = ({ product }) => {
+  const [productPrice, setProductPrice] = useState(
+    Object.values(product.price[0])
+  );
+  const cart = useSelector((state) => console.log(state.cart.cart));
+  const dispatch = useDispatch();
+  const addToCart = (product) => {
+    const { price, ...res } = product;
+    let qty = 1;
+    let totalPrice = productPrice[0];
+    dispatch(addItem({ ...res, price: productPrice[0], qty, totalPrice }));
+  };
   return (
     <div>
       <div className="rounded-lg border  shadow-md">
         <div className={`relative `}>
           <img className="rounded-t-lg h-36" src={product.image} alt="" />
-          <div className="absolute bottom-2 left-2 text-black font-bold">
-            ₹ hello world
+          <div className="absolute bottom-2 left-2 text-white bg-shadowImage font-bold">
+            ₹ {productPrice}
           </div>
         </div>
         <div className="p-2">
           <a href="/">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-              {product?.title}
+              {product.title.length < 20
+                ? product.title
+                : product?.title.slice(0, 20)}
+              ...
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            {product.length > 60 ? product.length : product?.des.slice(0, 60)}
+            {product.des.length < 50 ? product.des : product?.des.slice(0, 50)}
           </p>
           <div className="flex justify-between items-center">
             <div>
-              <select className="appearance-none w-full py-1 px-2 border">
+              <select
+                multiple={false}
+                onChange={(e) => setProductPrice(e.target.value)}
+                className="appearance-none w-full py-1 px-2 border"
+              >
                 {product.price.map((p, i) => (
                   <option key={i} value={Object.values(p)}>
                     {Object.keys(p)}
@@ -38,7 +59,10 @@ const ProductCard = ({ product }) => {
               <button className="text-xl font-bold  border border-[#ccc] px-1 py-0">
                 +
               </button>
-              <button className="inline-flex items-center py-1 px-3 text-sm font-medium text-center  rounded-lg  focus:ring-4 focus:outline-none border border-purple-400">
+              <button
+                onClick={() => addToCart(product)}
+                className="inline-flex items-center py-1 px-3 text-sm font-medium text-center  rounded-lg  focus:ring-4 focus:outline-none border border-purple-400"
+              >
                 add
               </button>
             </div>
