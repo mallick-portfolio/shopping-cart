@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Cart from "./components/Cart.jsx";
+import Products from "./components/Products.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="flex gap-6 container mx-auto">
+        <div className="w-4/6">
+          <Products />
+        </div>
+        <div className="w-2/6">
+          <Cart />
+        </div>
+      </div>
+    </>
   );
 }
 
