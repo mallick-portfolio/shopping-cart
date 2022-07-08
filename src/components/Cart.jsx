@@ -1,6 +1,5 @@
 import React from "react";
-
-import images from "../../src/assets/images/4623-CMB1210.jpg";
+import images from "../../src/assets/images/pic1.jpg";
 const Cart = () => {
   return (
     <div className="py-10 flex justify-start items-start gap-4">
