@@ -1,7 +1,11 @@
 import React from "react";
 import images from "../../src/assets/images/pic1.jpg";
 import { useDispatch, useSelector } from "react-redux";
-import { decrementQty, incrementQty, removeItem } from "../store/cart/cartSlice.js";
+import {
+  decrementQty,
+  incrementQty,
+  removeItem,
+} from "../store/cart/cartSlice.js";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -38,12 +42,23 @@ const Cart = () => {
               </button>
             </div>
             <div>{cart.totalPrice}</div>
-            <button onClick={() => dispatch(removeItem(cart.id))} className="text-xl">
-          x
-        </button>
+            <button
+              onClick={() => dispatch(removeItem(cart.id))}
+              className="text-xl"
+            >
+              x
+            </button>
           </div>
         </div>
       ))}
+      <div className="text-2xl mt-2 text-center">
+        Total:{" "}
+        {carts
+          .map((cart) => {
+            return cart.totalPrice;
+          })
+          .reduce((a, b) => a + b, 0)}
+      </div>
     </div>
   );
 };
