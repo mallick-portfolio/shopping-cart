@@ -6,7 +6,8 @@ const ProductCard = ({ product }) => {
   const [productPrice, setProductPrice] = useState(
     Object.values(product.price[0])
   );
-  const cart = useSelector((state) => console.log(state.cart.cart));
+  const cart = useSelector((state) => state.cart.cart);
+  console.log(cart);
   const dispatch = useDispatch();
   const addToCart = (product) => {
     const { price, ...res } = product;
@@ -39,7 +40,7 @@ const ProductCard = ({ product }) => {
             <div>
               <select
                 multiple={false}
-                onChange={(e) => setProductPrice(e.target.value)}
+                onChange={(e) => setProductPrice([parseInt(e.target.value)])}
                 className="appearance-none w-full py-1 px-2 border"
               >
                 {product.price.map((p, i) => (
@@ -50,21 +51,26 @@ const ProductCard = ({ product }) => {
               </select>
             </div>
             <div className="text-right mt-2">
-              <button className="text-xl font-bold  border border-[#ccc] px-1 py-0">
-                -
-              </button>
-              <span className="text-xl font-bold  border border-[#ccc] px-1 py-0">
-                {"qty"}
-              </span>
-              <button className="text-xl font-bold  border border-[#ccc] px-1 py-0">
-                +
-              </button>
-              <button
-                onClick={() => addToCart(product)}
-                className="inline-flex items-center py-1 px-3 text-sm font-medium text-center  rounded-lg  focus:ring-4 focus:outline-none border border-purple-400"
-              >
-                add
-              </button>
+              {cart?.find((c) => c?.id === product?.id) ? (
+                <>
+                  <button className="text-xl font-bold  border border-[#ccc] px-1 py-0">
+                    -
+                  </button>
+                  <span className="text-xl font-bold  border border-[#ccc] px-1 py-0">
+                    {/* {cart?.find((c) => c?.id === product?.id)} */}
+                  </span>
+                  <button className="text-xl font-bold  border border-[#ccc] px-1 py-0">
+                    +
+                  </button>
+                </>
+              ) : (
+                <button
+                  onClick={() => addToCart(product)}
+                  className="inline-flex items-center py-1 px-3 text-sm font-medium text-center  rounded-lg  focus:ring-4 focus:outline-none border border-purple-400"
+                >
+                  add
+                </button>
+              )}
             </div>
           </div>
         </div>
