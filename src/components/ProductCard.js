@@ -1,13 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addItem } from "../store/cart/cartSlice.js";
 const ProductCard = ({ product }) => {
   const [productPrice, setProductPrice] = useState(
     Object.values(product.price[0])
   );
-  const cart = useSelector((state) => state.cart.cart);
-  console.log(cart);
   const dispatch = useDispatch();
   const addToCart = (product) => {
     const { price, ...res } = product;
@@ -51,26 +49,12 @@ const ProductCard = ({ product }) => {
               </select>
             </div>
             <div className="text-right mt-2">
-              {cart?.find((c) => c?.id === product?.id) ? (
-                <>
-                  <button className="text-xl font-bold  border border-[#ccc] px-1 py-0">
-                    -
-                  </button>
-                  <span className="text-xl font-bold  border border-[#ccc] px-1 py-0">
-                    {/* {cart?.find((c) => c?.id === product?.id)} */}
-                  </span>
-                  <button className="text-xl font-bold  border border-[#ccc] px-1 py-0">
-                    +
-                  </button>
-                </>
-              ) : (
-                <button
-                  onClick={() => addToCart(product)}
-                  className="inline-flex items-center py-1 px-3 text-sm font-medium text-center  rounded-lg  focus:ring-4 focus:outline-none border border-purple-400"
-                >
-                  add
-                </button>
-              )}
+              <button
+                onClick={() => addToCart(product)}
+                className="inline-flex items-center py-1 px-3 text-sm font-medium text-center  rounded-lg  focus:ring-4 focus:outline-none border border-purple-400"
+              >
+                add
+              </button>
             </div>
           </div>
         </div>
